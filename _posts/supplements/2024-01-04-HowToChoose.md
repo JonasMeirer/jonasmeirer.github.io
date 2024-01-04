@@ -16,161 +16,12 @@ That being said, there are very good reasons for taking supplements. And I will 
 Let's break it down. 
 
 ## Covering basic vitamin and mineral needs
-I first want to get a feeling for my basic requirements, and the degree to which my nutrition covers this need. In order to judge this, I wrote some scripts to pull nutritional values of the foods that I describe in the nutrition section of this website. I then aggregrated all the nutrients, and compared them to my daily requirements. Here's the result: [Table of vitamins and minerals](/hidden_posts/food/2024-01-04-MicroNutrients.html).
+I first want to get a feeling for my basic requirements, and the degree to which my nutrition covers this need. In order to judge this, I wrote some scripts to pull nutritional values of the foods that I describe in the nutrition section. I then aggregrated all the nutrients, and compared them to my daily requirements. Here's the result: [Table of vitamins and minerals](/hidden_posts/food/2024-01-04-MicroNutrients.html).
 
 From that table, we can get the total amount of nutrients and compare it to the recommendations:
 
 <div style="overflow-x: auto; display: flex; justify-content: center;">
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Amount</th>
-      <th>Daily recommendation</th>
-      <th>Ratio</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Calcium</th>
-      <td>628.2</td>
-      <td>1,000.0</td>
-      <td style="color:#9C0A00">0.63</td>
-    </tr>
-    <tr>
-      <th>Iron</th>
-      <td>21.4</td>
-      <td>8.0</td>
-      <td>2.67</td>
-    </tr>
-    <tr>
-      <th>Magnesium</th>
-      <td>782.5</td>
-      <td>400.0</td>
-      <td>1.96</td>
-    </tr>
-    <tr>
-      <th>Phosphorus</th>
-      <td>1,912.7</td>
-      <td>700.0</td>
-      <td>2.73</td>
-    </tr>
-    <tr>
-      <th>Potassium</th>
-      <td>3,862.9</td>
-      <td>3,000.0</td>
-      <td>1.29</td>
-    </tr>
-    <tr>
-      <th>Sodium</th>
-      <td>214.8</td>
-      <td>1,500.0</td>
-      <td style="color:#9C0A00">0.14</td>
-    </tr>
-    <tr>
-      <th>Zinc</th>
-      <td>13.5</td>
-      <td>11.0</td>
-      <td>1.23</td>
-    </tr>
-    <tr>
-      <th>Copper</th>
-      <td>4.0</td>
-      <td>0.9</td>
-      <td>4.42</td>
-    </tr>
-    <tr>
-      <th>Manganese</th>
-      <td>7.4</td>
-      <td>2.3</td>
-      <td>3.22</td>
-    </tr>
-    <tr>
-      <th>Selenium</th>
-      <td>188.8</td>
-      <td>55.0</td>
-      <td>3.43</td>
-    </tr>
-    <tr>
-      <th>Vitamin A</th>
-      <td>983.1</td>
-      <td>900.0</td>
-      <td>1.09</td>
-    </tr>
-    <tr>
-      <th>Thiamin (B1)</th>
-      <td>2.4</td>
-      <td>1.2</td>
-      <td>1.96</td>
-    </tr>
-    <tr>
-      <th>Riboflavin (B2)</th>
-      <td>1.4</td>
-      <td>1.3</td>
-      <td>1.06</td>
-    </tr>
-    <tr>
-      <th>Niacin (B3)</th>
-      <td>16.5</td>
-      <td>16.0</td>
-      <td>1.03</td>
-    </tr>
-    <tr>
-      <th>Pantothenic Acid (B5)</th>
-      <td>3.1</td>
-      <td>5.0</td>
-      <td style="color:#9C0A00">0.62</td>
-    </tr>
-    <tr>
-      <th>Vitamin B6</th>
-      <td>2.0</td>
-      <td>1.3</td>
-      <td>1.50</td>
-    </tr>
-    <tr>
-      <th>Folate (B9)</th>
-      <td>679.0</td>
-      <td>400.0</td>
-      <td>1.70</td>
-    </tr>
-    <tr>
-      <th>Vitamin B12</th>
-      <td>0.0</td>
-      <td>2.4</td>
-      <td style="color:#9C0A00">0.01</td>
-    </tr>
-    <tr>
-      <th>Vitamin C</th>
-      <td>233.9</td>
-      <td>90.0</td>
-      <td>2.60</td>
-    </tr>
-    <tr>
-      <th>Vitamin D</th>
-      <td>0.0</td>
-      <td>600.0</td>
-      <td style="color:#9C0A00">0.00</td>
-    </tr>
-    <tr>
-      <th>Vitamin E</th>
-      <td>13.4</td>
-      <td>15.0</td>
-      <td style="color:#9C0A00">0.89</td>
-    </tr>
-    <tr>
-      <th>Vitamin K</th>
-      <td>274.3</td>
-      <td>120.0</td>
-      <td>2.29</td>
-    </tr>
-    <tr>
-      <th>Choline</th>
-      <td>259.8</td>
-      <td>550.0</td>
-      <td style="color:#9C0A00">0.47</td>
-    </tr>
-  </tbody>
-</table>
+{% include tables/micros_table_summary.html %}
 </div>
 
 ### Deficiencies
@@ -179,9 +30,21 @@ Ok, that generally doesn't look so bad. Except for a few vitamins and minerals, 
 
 Let's look at the other dificiencies. Sodium is low - which makes sense, because non of the food that I list has any salt added. Just add some over your food afterwards, and you'll be covered. Don't add too much though, that's also not healthy!
 
+Then there's calcium. It's usually relatively easy to get to the daily recommandation if you eat dairy products, but can be harder to achieve with a plant-based diet. I oftentimes add it to the afternoon [snack]({{'/2023-12-13/Snack'| prepend: site.baseurl}}), just to be sure. 
 
-more to come..
+Vitamin B5 helps a large amount of enzymes function in the body, and is important for energy production in general. Either use a supplement or include shiitake mushrooms (20g cover ~90% of the requirement) during [lunch]({{'/2023-12-13/Lunch'| prepend: site.baseurl}}). 
+
+Finally, there's choline which I don't seem to get enough of. Choline is a molecule "mostly used for either its cognitive boosting properties (turning into acetylcholine, the learning neurotransmitter) or as a liver health agent, able to reduce liver fat" (<a href="https://examine.com/supplements/choline/" target="_blank">source</a>). Sounds like I want to get enough of that. But again, this is something predominantly found in animal products, so I either supplmement it or I just eat two eggs to get to 100% of the recommendation. 
 
 
+## Identifying interest areas to target with a specific supplements
+
+We've got our basic needs covered, so on to step two. This one is extemely person-specific. For example, you might have specific goals with respect to optimising sports performance. Or you might have the feeling that you are constantly stressed, and your sympathetic nervous system overactive. You might want to improve your sleep, etc, etc, etc. As long as you already do the basics rights (working out, eating right, and trying to get good sleep), I'm all in favor for experimenting. But please do it right.
 
 
+## How to do it right
+
+I really don't want you to spend a ton of money that will give you only neglegible results. To do it right, you should be evaluating the effects of the supplement in a scientific way.  
+That is: measure, measure, measure. 
+
+What I recommend is described on my article about [measuring]({{'/2023-12-19/Measuring'| prepend: site.baseurl}}). If you want, add a measurement of your subjective feeling (e.g, rate how you are feeling on a scale from 1 to 5 every night). This will allow you to compare a baseline period, in which you should just live life like you normally do, to a supplement period, where you take the supplement and try to keep the rest of your life as similar as possible to the baseline period. This is to reduce the effect of other confounding factors. For example, if you start a dedicated meditation practise with a new relaxation supplement, it might be that it wasn't the *I'm-so-calm-but-wait-where-did-my-money-go* supplement that made your morning HRV so much better.
