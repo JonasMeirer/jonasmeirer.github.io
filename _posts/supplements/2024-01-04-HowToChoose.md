@@ -15,12 +15,12 @@ That being said, there are very good reasons for taking supplements. And I will 
 
 Let's break it down. 
 
-## Step 1
+## Covering basic vitamin and mineral needs
 I first want to get a feeling for my basic requirements, and the degree to which my nutrition covers this need. In order to judge this, I wrote some scripts to pull nutritional values of the foods that I describe in the nutrition section of this website. I then aggregrated all the nutrients, and compared them to my daily requirements. Here's the result: [Table of vitamins and minerals](/hidden_posts/food/2024-01-04-MicroNutrients.html).
 
 From that table, we can get the total amount of nutrients and compare it to the recommendations:
 
-<div style="overflow-x: auto;">
+<div style="overflow-x: auto; display: flex; justify-content: center;">
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
