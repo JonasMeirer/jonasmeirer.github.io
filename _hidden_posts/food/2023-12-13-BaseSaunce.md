@@ -12,10 +12,10 @@ I usually prepare the olive oil base once a week (this recipe is for seven days)
 
 - 175g extra virgin olive oil
 - 80g apple vinegar
-- 2 limes (juiced)
+- 2 limes (juiced, 100ml)
 - 2 garlic cloves
 - 20g fresh ginger
-- 100g tahini
+- 70g tahini
 - 4 Tbsp cumin
 
 
