@@ -7,3 +7,8 @@ Gemfile.lock
 .jekyll-cache
 
 scripts/*
+
+streamlit_app/data/*
+streamlit_app/.streamlit/*.toml
+
+*.pyc
